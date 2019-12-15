@@ -1,0 +1,10 @@
+.list-item .btn {
+    width: 2rem;
+    margin-left: 8px;
+    float: right;
+}
+.list-item-text {
+    overflow: hidden;
+    max-width: 72%;
+    display: inline-block;
+}

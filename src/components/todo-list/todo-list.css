@@ -1,0 +1,12 @@
+body {
+    padding: 1rem;
+}
+
+.list-group-item:hover {
+    background: #eee;
+}
+
+.list-group-item {
+    transition: all 150ms;
+    cursor: pointer;
+}
