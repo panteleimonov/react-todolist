@@ -6,5 +6,21 @@
 .list-item-text {
     overflow: hidden;
     max-width: 72%;
+    font-size: calc(1em + 2px);
+    line-height: 1.2;
     display: inline-block;
+}
+
+.style-red {
+    color: tomato;
+    border-color: tomato;
+}
+
+.style-red:hover {
+    background-color: tomato;
+    border-color: tomato;
+}
+
+.style-red:focus, .style-red:focus {
+    box-shadow: 0 0 0 0.2rem rgba(233, 39, 39, 0.5);
 }
