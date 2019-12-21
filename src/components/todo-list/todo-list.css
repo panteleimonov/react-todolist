@@ -9,4 +9,5 @@ body {
 .list-group-item {
     transition: all 150ms;
     cursor: pointer;
+    background-color: #eee;
 }

@@ -16,7 +16,7 @@ const App = () => {
 
     return (
         <div>
-            <AppHeader />
+            <AppHeader toDo='4' done='0' />
             <SearchPanel />
             <ItemStatusBtns />
             <ToDoList data={data}/>
